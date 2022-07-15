@@ -88,3 +88,9 @@
     "start": "parcel index.html"
 ```
 
+### run the containr in the localhost network to run project
+
+- `docker run -v /mnt/code/repos/:/repos --network=host -d -it --rm --user node --name node-app node:16`
+- `docker exec -it node-app bash`
+- `cd` to the parcel project
+- `npm start`
