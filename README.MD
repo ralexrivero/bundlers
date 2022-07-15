@@ -1,6 +1,8 @@
-# Webpack
+# Bundlers
 
-## init project
+## Webpack
+
+### init project
 
 - `npm init -y`
 - `npm install --save-dev webpack-dev-server webpack-cli`
@@ -14,7 +16,7 @@
 
 > define to use web pack server in development mode
 
-## babel
+### babel
 
 - `npm install --save-dev babel-core babel-loader babel-preset-env`
 
@@ -32,18 +34,18 @@
 
 - `npm install --save-dev babel-preset-react`
 
-## React and ReactDOM
+### React and ReactDOM
 
 - `npm install react react-dom`
 
-## eslint
+### eslint
 
 - `npm install --save-dev install eslint`
 - `npm install --save-dev installeslint-loader`
 - `npm install --save-dev install babel-eslint`
 - `npm install --save-dev eslint-config-airbnb eslint-plugin-import eslint-plugin-jsx-a11y`
 
-## update babel and eslint
+### update babel and eslint
 
 - `npm install --save-dev @babel/core @babel/preset-env @babel/preset-react babel-loader`
 
@@ -57,6 +59,32 @@
     ]
 ```
 
-## run project
+### run project
 
 - `npm start`
+
+## Parcel
+
+> install parcel
+
+- `npm install react react-dom`
+- `npm init -y`
+- `npm install --save-dev parcel-bundler babel-preset-env babel-preset-react`
+- `touch .babelrc`
+
+```json
+  "babel": {
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react"
+    ]
+  }
+```
+
+> `package.json`
+
+```json
+  "scripts": {
+    "start": "parcel index.html"
+```
+
