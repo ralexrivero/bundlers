@@ -43,6 +43,20 @@
 - `npm install --save-dev install babel-eslint`
 - `npm install --save-dev eslint-config-airbnb eslint-plugin-import eslint-plugin-jsx-a11y`
 
+## update babel and eslint
+
+- `npm install --save-dev @babel/core @babel/preset-env @babel/preset-react babel-loader`
+
+> `package.json`
+
+```json
+  "babel": {
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react"
+    ]
+```
+
 ## run project
 
 - `npm start`
