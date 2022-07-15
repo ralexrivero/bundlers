@@ -14,8 +14,6 @@
 
 > define to use web pack server in development mode
 
-- `npm start`
-
 ## babel
 
 - `npm install --save-dev babel-core babel-loader babel-preset-env`
@@ -44,4 +42,7 @@
 - `npm install --save-dev installeslint-loader`
 - `npm install --save-dev install babel-eslint`
 - `npm install --save-dev eslint-config-airbnb eslint-plugin-import eslint-plugin-jsx-a11y`
+
+## run project
+
 - `npm start`
